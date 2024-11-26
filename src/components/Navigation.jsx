@@ -20,7 +20,7 @@ function Navigation() {
             animate={{ x: 0, opacity: 1 }}
             className="text-xl font-bold text-white"
           >
-            IA & ML Formation
+            IA & ML Formation SIATEG
           </motion.div>
           <div className="flex space-x-4">
             {links.map((link) => (
