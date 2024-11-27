@@ -92,7 +92,7 @@ function History() {
       year: '1956',
       title: 'Conférence de Dartmouth',
       description: "Naissance officielle de l'Intelligence Artificielle",
-      image: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Dartmouth_College_campus_2007-10-20_09.JPG",
+      image: "https://upload.wikimedia.org/wikipedia/en/b/b5/Dartmouth-Moscow_2008.jpg",
       details: [
         {
           title: "Importance Historique",
@@ -124,7 +124,39 @@ function History() {
       year: '1997',
       title: 'Deep Blue bat Kasparov',
       description: "L'IA d'IBM bat le champion du monde d'échecs",
-      image: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Kasparov-34.jpg",
+      image: "https://en.chessbase.com/portals/all/2021/02/25jahre-deepblue/deepblue-kasparov.jpg",
+      details: [
+        {
+          title: "Victoire Historique",
+          content: "Première victoire d'une machine contre un champion du monde d'échecs en titre."
+        },
+        {
+          title: "Impact Médiatique",
+          content: "A démontré au grand public la puissance potentielle de l'IA."
+        }
+      ]
+    },
+    {
+      year: '2012',
+      title: 'AlexNet',
+      description: "Révolution du Deep Learning avec la victoire d'AlexNet dans ImageNet",
+      image: "https://production-media.paperswithcode.com/methods/Screen_Shot_2020-06-22_at_3.28.59_PM.png",
+      details: [
+        {
+          title: "Victoire Historique",
+          content: "Première victoire d'une machine contre un champion du monde d'échecs en titre."
+        },
+        {
+          title: "Impact Médiatique",
+          content: "A démontré au grand public la puissance potentielle de l'IA."
+        }
+      ]
+    },
+    {
+      year: '2022',
+      title: 'ChatGPT',
+      description: "OpenAI lance ChatGPT, marquant une nouvelle ère dans l'IA conversationnelle",
+      image: "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
       details: [
         {
           title: "Victoire Historique",
@@ -153,7 +185,7 @@ function History() {
         onClose={() => setSelectedItem(null)}
         {...selectedItem}
       />
-      
+
       <motion.section
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

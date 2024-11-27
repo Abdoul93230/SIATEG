@@ -21,7 +21,7 @@ function Home() {
       >
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-80"></div>
         <img
-          src="https://www.v7labs.com/blog/content/images/2023/09/ai-ml-dl-hierarchy.png"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4vtO24MNxPIGNbi5G2Luxx8m8q45CfSZhQA&s"
           alt="AI ML DL Illustration"
           className="w-full h-full object-cover"
         />
@@ -32,7 +32,7 @@ function Home() {
           </div>
         </div>
       </motion.div>
-      
+
       <div className="bg-gray-800 rounded-lg p-6 mb-8">
         <h2 className="text-2xl font-semibold mb-4">Objectifs de la Formation</h2>
         <ul className="space-y-2">

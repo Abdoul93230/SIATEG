@@ -137,13 +137,24 @@ labels = kmeans.predict([[0, 0], [4, 4]])
         </motion.div>
 
         <motion.div
-          initial={{ opacity: 0, x: 20 }}
-          animate={{ opacity: 1, x: 0 }}
-          className="bg-gray-800 rounded-lg p-6"
-        >
-          <h3 className="text-xl font-semibold mb-4">Clustering</h3>
-          <CodeExample code={clusteringCode} language="python" />
-        </motion.div>
+      initial={{ opacity: 0, x: 20 }}
+      animate={{ opacity: 1, x: 0 }}
+      className="bg-gray-800 rounded-lg p-6"
+    >
+      <div className="flex items-center mb-4">
+        {/* <ClusteringIcon className="w-10 h-10 mr-4 text-green-400"/> */}
+        <img
+            src="https://cdn.analyticsvidhya.com/wp-content/uploads/2019/06/Screenshot-from-2019-06-17-20-05-30.png"
+            alt="Transformer Architecture"
+            className="w-10 h-10 mr-4 text-green-400"
+          />
+        <h3 className="text-xl font-semibold">Clustering</h3>
+      </div>
+      <p className="text-gray-300 mb-4">
+        Le clustering est une technique d'apprentissage non supervisé qui regroupe des données similaires en clusters ou groupes. Il permet de découvrir des structures naturelles dans les données sans avoir besoin d'étiquettes prédéfinies, en se basant sur des similitudes intrinsèques.
+      </p>
+      <CodeExample code={clusteringCode} language="python" />
+    </motion.div>
       </div>
 
       <motion.div
