@@ -6,6 +6,8 @@ import History from './pages/History';
 import AI from './pages/AI';
 import ML from './pages/ML';
 import DL from './pages/DL';
+import NLP from './pages/NLP';
+import LLM from './pages/LLM';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
             <Route path="/ai" element={<AI />} />
             <Route path="/ml" element={<ML />} />
             <Route path="/dl" element={<DL />} />
+            <Route path="/nlp" element={<NLP />} />
+            <Route path="/llm" element={<LLM />} />
           </Routes>
         </main>
       </div>
