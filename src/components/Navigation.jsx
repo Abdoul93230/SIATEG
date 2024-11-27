@@ -8,7 +8,9 @@ function Navigation() {
     { to: '/history', label: 'Histoire' },
     { to: '/ai', label: 'Intelligence Artificielle' },
     { to: '/ml', label: 'Machine Learning' },
-    { to: '/dl', label: 'Deep Learning' }
+    { to: '/dl', label: 'Deep Learning' },
+    { to: '/nlp', label: 'NLP' },
+    { to: '/llm', label: 'LLM' }
   ];
 
   return (
@@ -20,15 +22,15 @@ function Navigation() {
             animate={{ x: 0, opacity: 1 }}
             className="text-xl font-bold text-white"
           >
-            IA & ML Formation SIATEG
+            IA & ML Formation
           </motion.div>
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 overflow-x-auto">
             {links.map((link) => (
               <NavLink
                 key={link.to}
                 to={link.to}
                 className={({ isActive }) =>
-                  `px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                  `px-3 py-2 rounded-md text-sm font-medium transition-colors whitespace-nowrap ${
                     isActive
                       ? 'bg-gray-900 text-white'
                       : 'text-gray-300 hover:bg-gray-700 hover:text-white'
