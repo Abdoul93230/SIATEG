@@ -12,6 +12,26 @@ function Home() {
       <h1 className="text-4xl font-bold mb-8 text-center">
         Intelligence Artificielle, Machine Learning et Deep Learning
       </h1>
+
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.2 }}
+        className="relative h-96 mb-12 rounded-xl overflow-hidden"
+      >
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-80"></div>
+        <img
+          src="https://www.v7labs.com/blog/content/images/2023/09/ai-ml-dl-hierarchy.png"
+          alt="AI ML DL Illustration"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="text-center text-white p-8">
+            <h2 className="text-3xl font-bold mb-4">Explorez le Futur</h2>
+            <p className="text-xl">Découvrez les technologies qui façonnent notre monde</p>
+          </div>
+        </div>
+      </motion.div>
       
       <div className="bg-gray-800 rounded-lg p-6 mb-8">
         <h2 className="text-2xl font-semibold mb-4">Objectifs de la Formation</h2>
